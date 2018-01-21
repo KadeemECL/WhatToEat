@@ -1,0 +1,60 @@
+.background-image {
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 800px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: -5px;
+    background-position: 40% 85%;
+}
+
+.content {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    left: 0;
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    right: 0;
+    z-index: 2;
+    padding: 0 10px;
+}
+
+.title {
+    color: white;
+    font-family: Verdana,sans-serif;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.one, .two, .three, .four {
+    color: white;
+    font-family: Verdana,sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#fplace {
+    color: white;
+    font-family: Verdana,sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.N {
+    color: white;
+    font-family: Verdana,sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dplace {
+    color: white;
+    font-family: Verdana,sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
