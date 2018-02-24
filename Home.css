@@ -1,15 +1,7 @@
-.background-image {
-    background-image: url('bg2.jpg');
-    background-size: cover;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    height: 800px;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: -5px;
-    background-position: 40% 85%;
+body {
+    background-color: white;
 }
+
 
 .content {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -23,15 +15,20 @@
 }
 
 .title {
-    color: white;
+    color: lightgreen;
     font-family: Verdana,sans-serif;
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     font-size: 70px;
 }
 
+hr{
+    width: 50%;
+    margin-bottom: 50px;
+
+}
 .one, .two, .three, .four {
-    color: white;
+    color: grey;
     font-family: Verdana,sans-serif;
     text-align: center;
     font-weight: bold;
@@ -39,21 +36,21 @@
 }
 
 #fplace {
-    color: white;
+    color: lightgreen;
     font-family: Verdana,sans-serif;
     text-align: center;
     font-size: 35px;
 }
 
 .N {
-    color: white;
     font-family: Verdana,sans-serif;
     text-align: center;
     font-weight: bold;
+    color: grey;
 }
 
 #dplace {
-    color: white;
+    color: lightgreen;
     font-family: Verdana,sans-serif;
     text-align: center;
     font-size: 35px;
